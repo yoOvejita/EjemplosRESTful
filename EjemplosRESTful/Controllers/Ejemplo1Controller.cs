@@ -20,7 +20,7 @@ namespace EjemplosRESTful.Controllers
             
         }
 
-        [Produces("text/html")] //revisar
+        [Produces("text/html")]
         [HttpGet("prueba2")]
         public async Task<IActionResult> prueba2()
         {
